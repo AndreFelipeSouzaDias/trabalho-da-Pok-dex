@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+main {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.busca,
+.tipos,
+.medidas {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.lista-atributos {
+  max-width: 250px;
+  margin: 16px auto;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+
+.atributo-nome {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fundo-barra {
+  height: 8px;
+  background: #ddd;
+}
+
+.barra {
+  height: 100%;
+  background: #888;
+}
+
+.imagem {
+  width: 180px;
+}
